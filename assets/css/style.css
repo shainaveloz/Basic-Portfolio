@@ -1,0 +1,60 @@
+body {
+	position: absolute;
+	overflow: auto;
+	left: 150px; top: 90px; right: 0; bottom: 0;
+	width: 960px
+	background-color: #4aaaa5;
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+}
+head {
+	position: fixed;
+	left: 0; right: 0;
+	height: 92px;
+	background-color: #ffffff;
+	border-color: #cccccc;
+	font-family: "Georgia", Times, Times New Roman, serif;
+}
+#bio-image {
+	position: z-index;
+	overflow: auto;
+	float: left;
+	padding: 0;
+	width: 150px;
+	height: 275px;
+}
+#Main {
+	position: z-index;
+	overflow: auto;
+	float: left;
+	padding: 15px;
+	margin-left: 178px;
+	width: 650px;
+	background-color: #ffffff;
+	border-color: #dddddd;
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+}
+#Contact_form {
+	width: 650px;
+	float: left;
+	background-color: #ffffff;
+	border-color: #dddddd;
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+}
+#Sidebar {
+	background-color: #ffffff;
+	border-color: #dddddd;
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+	font-color: #777777;
+	float: right;
+	width: 270px;
+}
+#footer {
+	position: absolute;
+	overflow: auto;
+	width: 100%;
+	height: 100%;
+	border: 3px;
+	margin-top: 300px;
+	bottom: 0px;
+}
+
