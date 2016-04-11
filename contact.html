@@ -4,38 +4,57 @@
 	<title>Contact Info</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<H1>Shaina Veloz</H1>
-	<h2>Contact</h2>
 </head>
 	<body>
-		<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
-			<div class="row">
-				<label for="name">Name</label><br/>
-				<input id="name" class="input" name="name" type="text" value="" size="30"/><br/></input>
+		<header id="masthead">
+			<div class="container">
+				<a href="index.html" id="logo">Shaina</a>
+				<nav>
+					<a href="index.html">About</a>
+					<a href="portfolio.html">Portfolio</a>
+					<a href="contact.html">Contact</a>
+				</nav>
 			</div>
-			<div class="row">
-			<label for="email">Email</label><br/>
-			<input id="email" class="input" name="email" type="text" value="" size="30" /><br/></input>	
-			</div>
-			<div class="row">
-				<label for="message">Message</label><br/>
-				<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br/>
-			</div>
-			<input id="submit_button" type="submit" value="Submit"></input>
-		</form>
-		<aside>
-			<h3>Connect with Me</h3>
-			<div id="Sidebar" class="container">
+		</header>
+
+			<div id="main-container" class="container">
+		<section class="main-section">
+			<h1>Contact</h1>
+
+			<form id="contact-form">
 				<ul>
-					<img src="assets/images/1459934580_github-social-media.svg" alt="Icon" height="50px" width="50px">
-					<img src="assets/images/1459934829_linkedin_square_color.svg" alt="Icon" height="50px" width="50px">
-					<img src="assets/images/1459934620_stackoverflow.png" alt="Icon" height="50px" width="50px">
+					<li>
+						<label for="name">Name</label>
+						<input type="text" id="name" name="name" placeholder="John Smith" required="required">
+					</li>
+					<li>
+						<label for="email">Email</label>
+						<input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+					</li>
+					<li>
+						<label for="message">Message</label>
+						<textarea id="message" name="message" required="required"></textarea>
+					</li>
 				</ul>
+				<input type="submit">
+			</form>
+		</section>
+
+		<section class="sidebar">
+			<div id="connect">
+				<h2>Connect with Me</h2>
+
+				<img src="assets/images/1459934580_github-social-media.svg" class="social" alt="Github">
+				<img src="assets/images/1459934829_linkedin_square_color.svg" class="social" alt="LinkedIn">
+				<img src="assets/images/1459934620_stackoverflow.png" class="social" alt="Stack Overflow">
 			</div>
-		</aside>
-	</body>
-</head>
-<div id="Footer" class="container">
-	<p>© Copyright 2016 Shaina Veloz </p>
-</div>
+		</section>
+	</div>
+
+	<footer>
+		<div class="container">
+			&copy; Copyright 2016 Shaina Veloz
+		</div>
+	</footer>
+</body>
 </html>
