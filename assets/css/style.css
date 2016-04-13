@@ -216,7 +216,7 @@ input[type=submit] {
 
 /*Media Queries*/
 
-<meta name="viewport" content="width=device-width,initial">
+<meta name="viewport" content="width-device-width, initial-scale-1">
 @media screen and (max-width: 980px) {
 
 } 
@@ -265,6 +265,9 @@ input[type=submit] {
 		max-width: 81.5%;
 		margin-left: 5%;
 	}
+	.auth-image {
+		margin-right: 100%;
+	}
 	#main-container {
 		width: 100%;
 		margin-left: 9%;
@@ -282,7 +285,8 @@ input[type=submit] {
 		margin-left: 5%;
 	}
 	#logo {
-		width: 117%;
+		width: 122%;
+		margin-left: -5%;
 	}
 	.sidebar {
 		padding: 4.5%;
