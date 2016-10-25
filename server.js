@@ -1,6 +1,7 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 var path = require('path');
+//var mailto = require('mailto');
 var app = express();
 
 app.use(express.static(__dirname + '/views'));
@@ -16,13 +17,13 @@ app.get('/', function(req,res){
     res.sendFile(path.join(__dirname, './views', 'index.html'));
 });
 
-// app.get('/', function(req,res){
-//     res.sendFile(path.join(__dirname, './views', 'contact.html'));
+// var m = new mailto('form[action^="mailto:"]', {
+//     onSubmit: function(m){
+//         $.post('/contact', { type: 'json' }, m.getData());
+//     }
 // });
 //
-// app.get('/', function(req,res){
-//     res.sendFile(path.join(__dirname, './views', 'portfolio.html'));
-// });
+// m.getBody();
 
 var PORT = process.env.PORT || 8080;
 
