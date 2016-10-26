@@ -16,6 +16,9 @@ app.get('/', function(req,res){
     res.sendFile(path.join(__dirname, './views', 'index.html'));
 });
 
+app.get('/contact', function(req,res){
+
+})
 var PORT = process.env.PORT || 8080;
 
 app.listen(PORT, function() {
