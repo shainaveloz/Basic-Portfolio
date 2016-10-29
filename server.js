@@ -17,7 +17,7 @@ app.get('/', function(req,res){
 });
 
 app.post('/contact', function(req, res){
-    res.sendFile(path.join(__dirname, './views/mail/contact_me.js'));
+    res.sendFile(path.join(__dirname, './views/mail/contact.js'));
 });
 var PORT = process.env.PORT || 8080;
 
