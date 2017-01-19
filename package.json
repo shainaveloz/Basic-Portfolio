@@ -1,12 +1,19 @@
 {
+<<<<<<< HEAD
   "name": "app",
   "version": "1.0.0",
   "description": "My Porfolio Application",
+=======
+  "name": "basic-portfolio",
+  "version": "1.0.0",
+  "description": "",
+>>>>>>> 81baf8d8ac17f90e29e512c1c11d97f5eef0ac5f
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+<<<<<<< HEAD
   "author": "",
   "license": "MIT",
   "dependencies": {
@@ -14,6 +21,23 @@
     "express": "^4.14.0",
     "lodash": "^4.17.4",
     "nodemailer": "^2.7.0",
+=======
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shainaveloz/Basic-Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shainaveloz/Basic-Portfolio/issues"
+  },
+  "homepage": "https://github.com/shainaveloz/Basic-Portfolio#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mailto": "^0.1.2",
+    "nodemailer": "^2.6.4",
+>>>>>>> 81baf8d8ac17f90e29e512c1c11d97f5eef0ac5f
     "path": "^0.12.7"
   }
 }
