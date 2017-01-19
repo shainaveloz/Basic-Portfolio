@@ -1,9 +1,3 @@
-<<<<<<< HEAD
 
 /node_modules/
 /server/environment/app-secret.js
-=======
-node_modules
-/Archive.zip
-
->>>>>>> 81baf8d8ac17f90e29e512c1c11d97f5eef0ac5f
