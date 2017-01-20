@@ -1,3 +1,4 @@
 
 /node_modules/
 /server/environment/app-secret.js
+/bower_components/
